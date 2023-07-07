@@ -6,6 +6,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 0 200px;
 }
 
 .btn-primary {
@@ -40,5 +41,16 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(34, 32, 32);
+    color: #474747;
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+padding: 30px 30px 30px 150px ;
+display: flex;
+align-items: center;
+}
+.banner .profile_picture{
+    width: 500px;
+   
 }
