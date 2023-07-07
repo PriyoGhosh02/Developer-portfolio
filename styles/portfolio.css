@@ -19,6 +19,10 @@ nav {
     padding: 15px 35px;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 .nav-title {
     color: #181818;
     font-size: 45px;
@@ -91,37 +95,75 @@ nav a {
     background: #ebdcbb;
     margin: 130px 0px;
 }
-.section_title{
+
+.section_title {
     color: #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
-.section_describtion{
-    color:  #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+
+.section_describtion {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about_info_container{
+
+.about_info_container {
     display: flex;
     justify-content: space-around;
 }
-.about_info{
+
+.about_info {
     text-align: center;
 }
-#what_i_do_describtion{
+
+#what_i_do_describtion {
     padding: 30px 150px;
 }
-.skil_container{
+
+.skil_container {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skil_describtion {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume_container1 {
     display: flex;
 }
-.skil{
-    padding: 33px;
-    gap: 24px;
+
+.resume_colum_title {
+    color: #474747;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+}
+.resume_cloum_suntitle{
+    color: #474747;
+font-size: 8px;
+font-weight: 700;
+}
+
+.resume_describtion_box {
+    padding: 230px;
 }
