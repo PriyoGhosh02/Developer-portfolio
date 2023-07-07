@@ -115,3 +115,13 @@ main{
 .about_info{
     text-align: center;
 }
+#what_i_do_describtion{
+    padding: 30px 150px;
+}
+.skil_container{
+    display: flex;
+}
+.skil{
+    padding: 33px;
+    gap: 24px;
+}
