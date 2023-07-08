@@ -128,12 +128,40 @@
     font-size: 25px;
     font-weight: 700;
 }
-.icon_describtion{
+
+.icon_describtion {
     color: #737272;
-text-align: center;
-font-size: 15px;
-font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
 }
-.icon{
-   
+
+.icon {}
+
+.hi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* after plan */
+.after_plan {
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../imagesT/watch.png');
+margin: 25px 100px;
+}
+
+.after_plan_p {
+    display: flex;
+    width: 459px;
+    text-align: left;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.after_plan_d{
+    padding: 50px;
 }
