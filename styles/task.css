@@ -5,7 +5,7 @@
 
 .header {
     background-image: url('../imagesT/banner/banner2.png');
-    width: 1600px;
+    width: 1350px;
     height: 809px;
     direction: rtl;
 
@@ -164,4 +164,56 @@ margin: 25px 100px;
 }
 .after_plan_d{
     padding: 50px;
+}
+/* footer */
+footer{
+    background-color: #151414;
+    color: #FFF;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.feture{
+    width: 485px;
+margin-top: 70px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.foot_head{
+    color: #F8F8F8;
+font-size: 45px;
+font-weight: 700;
+}
+.foot_para{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.foot_con{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 5px;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+  margin: 0px 5px;
+  padding-top: 10px;
+}
+.subs{
+    color: #FFF;
+    font-size: 25px;
+text-align: left;
+margin: 130px 300px 0px 200px;
+padding-bottom: 20px;
 }
